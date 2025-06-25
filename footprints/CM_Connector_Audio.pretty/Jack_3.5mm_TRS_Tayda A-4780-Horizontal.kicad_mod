@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TRS 3.5mm, horizontal, through-hole, with tip and ring switches")
+	(descr "TRS 3.5mm, horizontal, through-hole, with tip and ring switches, https://www.cuidevices.com/product/resource/sj1-351xn.pdf")
 	(tags "TRS audio jack stereo horizontal")
 	(property "Reference" "REF**"
 		(at 5.2 -7 0)
@@ -12,8 +12,8 @@
 		(uuid "e45fe090-bc92-4bd8-84a2-e503098da63b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.2)
 			)
 		)
 	)
@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-4780.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" "TRS 3.5mm, horizontal, through-hole, with tip and ring switches"
+	(property "Description" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 2.8 5.55)
+		(start 2.2 5.55)
 		(end -1.7 5.55)
 		(stroke
 			(width 0.12)
@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start 10.25 5.55)
-		(end 5.75 5.55)
+		(end 6.2 5.55)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -217,7 +217,7 @@
 		(uuid "15bc6c88-f87a-4ad8-994b-236705dd1bbf")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.2 0 0)
+		(at 6.8 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f36d557b-f4f0-40bb-affa-1654c552b6a6")
@@ -270,15 +270,15 @@
 		(uuid "a7e4ce5c-98fb-48d0-9ff3-cdec8a457bcf")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_CUI_SJ1-3515N_Horizontal.step"
+	(model "${CUSTOM_3DMODEL_DIR}/trs-jack-A-069.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz -5.2 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
