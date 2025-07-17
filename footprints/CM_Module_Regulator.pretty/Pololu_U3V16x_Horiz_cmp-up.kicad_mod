@@ -1,0 +1,209 @@
+(footprint "Pololu_U3V16x_Horiz_cmp-up"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.8 0.8 0)
+		(layer "F.SilkS")
+		(uuid "3032fbb5-7f48-4fbf-bd10-9e4c5e8951a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "U3V16x"
+		(at 0 -2.5 0)
+		(layer "F.Fab")
+		(uuid "b8dbace3-2ae2-405e-b28f-2e35e9596f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fdbc763-98cc-41a6-896f-ea0e75bb8519")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ff6a2ec-c090-41ec-b8fa-8a3fb650e352")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.1 1.4)
+		(end -4.1 -11.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "384aca33-a3e4-4744-b20b-57f282723e2c")
+	)
+	(fp_line
+		(start -4.1 1.4)
+		(end 4.1 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc4eba5a-bfcd-43ca-a781-77f79cb5c026")
+	)
+	(fp_line
+		(start 4.1 -11.6)
+		(end -4.1 -11.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5744ed66-b0fa-4652-b0ac-73c8258f188d")
+	)
+	(fp_line
+		(start 4.1 -11.6)
+		(end 4.1 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45a6f03f-3e4d-4c40-9e04-242e58b85581")
+	)
+	(fp_line
+		(start -4.6 -12)
+		(end -4.6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6cdfbdd-391b-4387-b0d3-7bc0c73fd699")
+	)
+	(fp_line
+		(start -4.6 -12)
+		(end 4.6 -12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2a8aa547-da2b-4cb8-af1c-d2356f437fd0")
+	)
+	(fp_line
+		(start 4.6 -12)
+		(end 4.6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "85e45796-48b6-471b-b59a-fe7bddbdefb0")
+	)
+	(fp_line
+		(start 4.6 2)
+		(end -4.6 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6cd92eb7-8ac3-4570-b159-f73c65b2f759")
+	)
+	(fp_text user "G"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "19887e81-b741-44e9-b302-83fd683a18ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(fp_text user "IN"
+		(at 2 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b89e080-dff7-49b6-a455-da34605e88a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(fp_text user "OUT"
+		(at -2.2 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec7f09b6-32a1-4b08-80eb-5e8ff7d1e501")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c59184f1-8f11-41d9-b97f-d192d1224f12")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30ba7d75-c7ab-49af-a183-28446638c2bd")
+	)
+	(pad "3" thru_hole rect
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3d14d58-f82a-4b0b-adc8-bd3bab2605fc")
+	)
+	(embedded_fonts no)
+	(model "/Users/mark/GitHub/CircuitMonkey/kicad-library/3dmodels/Pololu-U3V16F-step-up-voltage-regulator.step"
+		(offset
+			(xyz -4 -1.45 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,171 @@
+(footprint "CK_11xx-M2-xx-C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SPDT Slide Switch")
+	(tags "SPDT, Switch")
+	(property "Reference" "REF**"
+		(at 0 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "02ca137e-1e20-4787-9f5d-de77f3ee6301")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CK_11xx-M2-xx-C"
+		(at 0 2.4 0)
+		(layer "F.Fab")
+		(uuid "474c4873-c877-4e7d-bca6-03b52e028aaf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1429/1000.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7502bc95-4b87-4b7f-a8fd-b2fab537a1cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CK 1100 M2 THD Series or Tayda A-3698"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7773ae76-f49a-4aea-a63b-28d1f89188ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.4 -3.3)
+		(end -6.4 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75e0936d-b967-4bef-8533-c62235808d1a")
+	)
+	(fp_line
+		(start -6.4 -3.3)
+		(end 6.4 -3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bbf68c0-3666-492f-9e4d-f91516a2fa89")
+	)
+	(fp_line
+		(start 6.4 -3.3)
+		(end 6.4 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fcd7d44e-c693-4951-bbeb-03fccf4bc6ea")
+	)
+	(fp_line
+		(start 6.4 3.3)
+		(end -6.4 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10bb795d-e743-4fe4-bbe0-9ecdfe4122cc")
+	)
+	(fp_line
+		(start -7 -4)
+		(end 7 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e785ef42-c550-411f-b76f-1ad30f4b3594")
+	)
+	(fp_line
+		(start -7 4)
+		(end -7 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3723393-db2a-46b3-ae5d-833978a15a62")
+	)
+	(fp_line
+		(start 7 -4)
+		(end 7 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7de343eb-faca-4e89-922e-ddc8cfb2e2aa")
+	)
+	(fp_line
+		(start 7 4)
+		(end -7 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0af63add-62e1-4c2e-a2ec-b2259eb95c50")
+	)
+	(pad "1" thru_hole circle
+		(at -4.7 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6d073b4a-b1a2-4b05-9bea-3ff5ebc772ec")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7b80229-80c0-4f64-91b7-1dac1f71644a")
+	)
+	(pad "3" thru_hole circle
+		(at 4.7 0)
+		(size 3 3)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6815f3e7-02ba-4e49-86c8-2181702aef84")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/1101M2S2CBE2.stp"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
