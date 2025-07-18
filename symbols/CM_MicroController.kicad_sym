@@ -16,25 +16,19 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "W65C816"
 			(at 0 0 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 4 4)
+					(thickness 0.8)
+					(bold yes)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+			(at -2.54 -6.35 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,7 +36,27 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "http://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf"
+			(at -2.54 -10.16 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8/16 bit CPU  65C02 compatible."
+			(at 1 -2.9 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "6502, 65C02"
 			(at 0 0 0)
 			(effects
 				(font
@@ -126,26 +140,6 @@
 						(thickness 0.25)
 					)
 					(justify bottom)
-				)
-			)
-			(text "W65C816"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 4 4)
-						(thickness 0.8)
-						(bold yes)
-					)
-				)
-			)
-			(text "QFP-44"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 2 2)
-						(thickness 0.125)
-					)
-					(justify top)
 				)
 			)
 			(pin power_in line
@@ -655,7 +649,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin input clock
 				(at 30.48 20.32 270)
 				(length 2.54)
 				(name "Φ2"
@@ -694,7 +688,7 @@
 			(pin bidirectional line
 				(at 33.02 20.32 270)
 				(length 2.54)
-				(name "~{RDY}"
+				(name "RDY"
 					(effects
 						(font
 							(size 1 1)
@@ -727,63 +721,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 44.45 15.24 180)
-				(length 2.54)
-				(name "~{ABORT}"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "42"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 44.45 12.7 180)
-				(length 2.54)
-				(name "~{IRQ}"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 44.45 10.16 180)
-				(length 2.54)
-				(name "~{NMI}"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 44.45 7.62 180)
-				(length 2.56)
+			(pin input inverted
+				(at 45.7 7.62 180)
+				(length 3.81)
 				(name "~{RST}"
 					(effects
 						(font
@@ -799,9 +739,63 @@
 					)
 				)
 			)
+			(pin input line
+				(at 45.72 15.24 180)
+				(length 3.81)
+				(name "~{ABORT}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at 45.72 12.7 180)
+				(length 3.81)
+				(name "~{IRQ}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input inverted
+				(at 45.72 10.16 180)
+				(length 3.81)
+				(name "~{NMI}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
-				(at 44.45 2.54 180)
-				(length 2.54)
+				(at 45.72 2.54 180)
+				(length 3.81)
 				(name "R/~{W}"
 					(effects
 						(font
@@ -818,8 +812,8 @@
 				)
 			)
 			(pin output line
-				(at 44.45 0 180)
-				(length 2.54)
+				(at 45.72 0 180)
+				(length 3.81)
 				(name "VPA"
 					(effects
 						(font
@@ -836,8 +830,8 @@
 				)
 			)
 			(pin output line
-				(at 44.45 -2.54 180)
-				(length 2.54)
+				(at 45.72 -2.54 180)
+				(length 3.81)
 				(name "VDA"
 					(effects
 						(font
@@ -853,9 +847,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 44.45 -5.08 180)
-				(length 2.54)
+			(pin output inverted
+				(at 45.72 -5.08 180)
+				(length 3.81)
 				(name "~{ML}"
 					(effects
 						(font
@@ -871,9 +865,9 @@
 					)
 				)
 			)
-			(pin output line
-				(at 44.45 -7.62 180)
-				(length 2.54)
+			(pin output inverted
+				(at 45.72 -7.62 180)
+				(length 3.81)
 				(name "~{VP}"
 					(effects
 						(font
@@ -890,8 +884,8 @@
 				)
 			)
 			(pin output line
-				(at 44.45 -10.16 180)
-				(length 2.54)
+				(at 45.72 -10.16 180)
+				(length 3.81)
 				(name "E"
 					(effects
 						(font
@@ -908,8 +902,8 @@
 				)
 			)
 			(pin output line
-				(at 44.45 -12.7 180)
-				(length 2.54)
+				(at 45.72 -12.7 180)
+				(length 3.81)
 				(name "MX"
 					(effects
 						(font
