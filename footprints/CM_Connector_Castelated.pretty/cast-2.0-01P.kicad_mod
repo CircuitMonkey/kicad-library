@@ -68,14 +68,13 @@
 	)
 	(pad "1" thru_hole roundrect
 		(at 0 0)
-		(size 1.9 1.6)
+		(size 2.1 1.6)
 		(drill 1
-			(offset -0.4 0)
+			(offset -0.3 0)
 		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.2083333333)
-		(thermal_bridge_angle 45)
 		(uuid "c9b2d7ce-799b-43f5-bdaa-5ea94c26c825")
 	)
 	(embedded_fonts no)
