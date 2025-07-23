@@ -1,0 +1,255 @@
+(footprint "Tactile_CK_KSC_6x6_Gullwing"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c513190c-bfc7-469a-accb-a9a0d2f50158")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "Tactile_CK_KSC_6x6_Gullwing"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e3baa4d0-97a4-4a67-bbed-ceea20277c55")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c00842d-3f6b-4f6c-ad48-a2fb9d767715")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e12727-51db-4f73-8f4c-bd734af6fb3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.1 -3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5a52f692-727b-45fd-aa07-58f4197959a9")
+	)
+	(fp_rect
+		(start -5 -2.35)
+		(end -3.8 -1.65)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "4a30c46e-5ec9-4b16-a52a-63af145c9e51")
+	)
+	(fp_rect
+		(start -5 1.65)
+		(end -3.8 2.35)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "7539cc99-b9ef-45b1-80f4-b10f50257f18")
+	)
+	(fp_rect
+		(start -3.8 -2.35)
+		(end -3.1 -1.65)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "07c406be-2f6b-42a6-a0ae-744af83ba394")
+	)
+	(fp_rect
+		(start -3.8 1.65)
+		(end -3.1 2.35)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ce279688-8199-4342-9c3f-ff02da27118a")
+	)
+	(fp_rect
+		(start -3.1 -3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "50fbf16a-6e33-4f45-be92-06db3e74aa48")
+	)
+	(fp_rect
+		(start 3.8 -2.35)
+		(end 3.1 -1.65)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d7197421-b639-4998-a55e-7334d93f04b1")
+	)
+	(fp_rect
+		(start 3.8 1.65)
+		(end 3.1 2.3)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "6b00884a-201b-4b7f-9d82-b2a4beb0555e")
+	)
+	(fp_rect
+		(start 5 -2.35)
+		(end 3.8 -1.65)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "30458180-97aa-4634-a56f-ccfd0ab7ad8a")
+	)
+	(fp_rect
+		(start 5 1.65)
+		(end 3.8 2.3)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "292f2ea5-231c-43d3-8959-a91e8befe64c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2.5)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "c6e8f7cd-6104-4913-adb1-69a481afedce")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.35 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "7e2aa6bc-1581-4a34-af9a-324c4f8f9937")
+	)
+	(fp_rect
+		(start -5.5 -3.5)
+		(end 5.5 3.5)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8fbecb22-54f1-4508-a530-0e44a9b51e97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "65bbac5b-c227-41a0-b90c-a986be71fa6f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1A" smd roundrect
+		(at -4.4 -2.125)
+		(size 2 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "f2364a3a-a6fc-4af1-8915-a90145047259")
+	)
+	(pad "1B" smd roundrect
+		(at 4.4 -2.125)
+		(size 2 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "c4585965-f6ea-47ee-a435-be3d5db72a5a")
+	)
+	(pad "2A" smd roundrect
+		(at -4.4 2.125)
+		(size 2 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "b9063315-bcca-4cb1-a12c-f55fb1065fd3")
+	)
+	(pad "2B" smd roundrect
+		(at 4.4 2.125)
+		(size 2 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "b5d075c3-bcb2-42d5-86c8-e3e3f453c212")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/Switch.3dshapes/Omron_B3FS-CK_KSC11-2.3mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
