@@ -16817,6 +16817,32 @@
 				)
 			)
 		)
+		(symbol "74LS05_1_1"
+			(polyline
+				(pts
+					(xy -1.8288 -0.2794) (xy -0.7112 -0.2794)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.2954 -0.2794) (xy -0.8382 0.1778) (xy -1.2954 0.635) (xy -1.7526 0.1778) (xy -1.2954 -0.2794)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "74LS05_2_0"
 			(polyline
 				(pts
@@ -16917,6 +16943,32 @@
 				)
 			)
 		)
+		(symbol "74LS05_3_1"
+			(polyline
+				(pts
+					(xy -1.5494 -0.3302) (xy -0.4318 -0.3302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -0.3302) (xy -0.5588 0.127) (xy -1.016 0.5842) (xy -1.4732 0.127) (xy -1.016 -0.3302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "74LS05_4_0"
 			(polyline
 				(pts
@@ -16964,6 +17016,32 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "74LS05_4_1"
+			(polyline
+				(pts
+					(xy -1.5494 -0.3302) (xy -0.4318 -0.3302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -0.3302) (xy -0.5588 0.127) (xy -1.016 0.5842) (xy -1.4732 0.127) (xy -1.016 -0.3302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)
@@ -17017,6 +17095,32 @@
 				)
 			)
 		)
+		(symbol "74LS05_5_1"
+			(polyline
+				(pts
+					(xy -1.5748 -0.3048) (xy -0.4572 -0.3048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.0414 -0.3048) (xy -0.5842 0.1524) (xy -1.0414 0.6096) (xy -1.4986 0.1524) (xy -1.0414 -0.3048)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "74LS05_6_0"
 			(polyline
 				(pts
@@ -17064,6 +17168,32 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "74LS05_6_1"
+			(polyline
+				(pts
+					(xy -1.5494 -0.3302) (xy -0.4318 -0.3302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 -0.3302) (xy -0.5588 0.127) (xy -1.016 0.5842) (xy -1.4732 0.127) (xy -1.016 -0.3302)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)

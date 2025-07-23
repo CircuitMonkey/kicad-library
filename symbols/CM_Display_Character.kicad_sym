@@ -1,0 +1,445 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "SevenSeg_CA_Dec"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -4.375 -7.5 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "Color"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CM_Display_Character:Avago-HDSM-281x-283x-SevenSeg"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/HDSM-281x-283x-0-28-in-Single-Digit-SMT-LED-Display-DS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Segment Display, SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SevenSeg_CA_Dec_1_0"
+			(pin power_in line
+				(at -1.27 10.16 270)
+				(length 2.54)
+				(name "CA"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 10.16 270)
+				(length 2.54)
+				(name "CA"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 5.08 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 3.81 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 1.27 180)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "E"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 -1.27 180)
+				(length 2.54)
+				(name "F"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 -3.81 180)
+				(length 2.54)
+				(name "DP1"
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "DP2"
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SevenSeg_CA_Dec_1_1"
+			(rectangle
+				(start -5.08 7.62)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0.24)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.875 5)
+				(radius 0.5154)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -3.25 -4.25)
+				(end 0.875 -4.75)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3 -0.25) (xy -3.375 -4.125) (xy -3.875 -4.125) (xy -3.5 -0.25) (xy -3 -0.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -2.875 0.375)
+				(end 1.25 -0.125)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.625 4.375) (xy -3 0.5) (xy -3.5 0.5) (xy -3.125 4.375) (xy -2.625 4.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -2.5 5)
+				(end 1.625 4.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.875 -0.25) (xy 1.5 -4.125) (xy 1 -4.125) (xy 1.375 -0.25) (xy 1.875 -0.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.125 -5)
+				(radius 0.5154)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.25 4.375) (xy 1.875 0.5) (xy 1.375 0.5) (xy 1.75 4.375) (xy 2.25 4.375)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(text "E"
+				(at -4.375 -1.875 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "F"
+				(at -4 2.75 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "DP1"
+				(at -3.875 6.25 0)
+				(effects
+					(font
+						(size 0.7 0.7)
+					)
+				)
+			)
+			(text "D"
+				(at -1.125 -3.375 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "G"
+				(at -0.75 1.125 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "A"
+				(at -0.625 3.625 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "DP2"
+				(at 0.5 -5.625 0)
+				(effects
+					(font
+						(size 0.7 0.7)
+					)
+				)
+			)
+			(text "C"
+				(at 2.375 -1.875 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+			(text "B"
+				(at 2.75 2.375 0)
+				(effects
+					(font
+						(size 0.9906 0.9906)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
