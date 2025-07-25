@@ -40498,18 +40498,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 2.54 7.62 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 			)
 		)
 		(property "Value" "74LS20"
-			(at 0 -1.27 0)
+			(at 2.4 0 90)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.4 1.4)
+					(thickness 0.28)
+					(bold yes)
 				)
 			)
 		)
@@ -40523,19 +40529,21 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS20"
-			(at 0 0 0)
+			(at 5.08 0 90)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "Dual 4-input NAND"
-			(at 0 0 0)
+			(at -2.54 0 90)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.6 0.6)
 				)
 				(hide yes)
 			)
@@ -41132,12 +41140,12 @@
 		)
 		(symbol "74LS20_3_0"
 			(pin power_in line
-				(at 0 12.7 270)
-				(length 5.08)
+				(at 0 10.16 270)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.8 0.8)
 						)
 					)
 				)
@@ -41150,12 +41158,12 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
-				(length 5.08)
+				(at 0 -10.16 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.8 0.8)
 						)
 					)
 				)
@@ -41170,8 +41178,8 @@
 		)
 		(symbol "74LS20_3_1"
 			(rectangle
-				(start -5.08 7.62)
-				(end 5.08 -7.62)
+				(start -3.81 6.35)
+				(end 3.81 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
