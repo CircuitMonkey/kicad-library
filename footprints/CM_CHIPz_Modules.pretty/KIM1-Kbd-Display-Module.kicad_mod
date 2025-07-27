@@ -1,0 +1,424 @@
+(footprint "KIM1-Kbd-Display-Module"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 9.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b303123e-d0e3-4270-b4d8-d95b14e8da68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6f71a5a7-8d35-4393-a3b4-9f48e1ff1dd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b33259e5-9806-495a-b98f-e3c55704375b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d9dbf6e-a988-456f-aae1-66df3126e260")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "Avago HDSM-281B"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae4096ca-90f1-4f11-a1ac-a188f5d818d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "Avago HDSM-281B"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "600a84b4-9d03-4828-8459-6465fe43692d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "Avago HDSM-281B"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f50af26-8f4f-41f0-a43d-a32eb46ea6c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "Avago HDSM-281B"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8acc202-9e1c-4e33-ae0a-fb1de485e90e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "Avago HDSM-281B"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0f3641e-dc37-4a53-9e45-97372d3cb0e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "CK JS202011SC"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe2ebfdc-6e18-40d9-8f7d-0fa77649361d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pin" "1=K 2=A"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08fb8933-fc9d-4bf0-8797-b35cfc09b3ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "Avago HDSM-281B"
+		(at 25.5 51.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "404d3915-6cc1-4641-b3d0-03d22f15b94e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -28.1 -39.375) (xy -26.1 -37.375) (xy -26.1 -28.375) (xy -27.1 -27.375) (xy -27.1 -25.375) (xy -26.1 -24.375)
+			(xy -26.1 -10.375) (xy -28.1 -8.375) (xy -28.1 59.625) (xy -25.1 62.625) (xy -21.1 62.625) (xy -19.1 60.625)
+			(xy -14.1 60.625) (xy -12.1 62.625) (xy 12.9 62.625) (xy 14.9 60.625) (xy 24.9 60.625) (xy 27.9 57.625)
+			(xy 27.9 -9.375) (xy 26.9 -10.375) (xy 26.9 -32.375) (xy 27.9 -33.375) (xy 27.9 -61.875) (xy 26.4 -63.375)
+			(xy 12.9 -63.375) (xy 10.9 -61.375) (xy 4.9 -61.375) (xy 2.9 -63.375) (xy -26.6 -63.375) (xy -28.1 -61.875)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "11237d8b-8ee8-4477-91d0-0cfdda2b2d5f")
+	)
+	(fp_poly
+		(pts
+			(xy -29 -65) (xy 29 -65) (xy 29 62) (xy 16 62) (xy 14 64) (xy -26 64) (xy -29 61)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e430bb8f-35a3-45e9-8925-83afd3703cd8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03cb198b-45e0-4e1d-8fce-83c2e5f4ec17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -26.1 -36.375 180)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "df8b8910-f692-45aa-a201-255bb994a5fa")
+	)
+	(pad "2" smd roundrect
+		(at -26.1 -34.375 180)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "ef783092-00ad-4e9d-a514-68851d337458")
+	)
+	(pad "3" smd roundrect
+		(at -26.1 -32.375 180)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "b8ae8f71-326c-4d25-a3dc-9effe687627f")
+	)
+	(pad "4" smd roundrect
+		(at -26.1 -30.375 180)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "406d5c14-aa5f-433e-816f-264a724d46fe")
+	)
+	(pad "5" smd roundrect
+		(at -26.1 -22.375 180)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "bf2dd101-ebde-4f5a-a3df-a12651c4fce9")
+	)
+	(pad "6" smd roundrect
+		(at -23.1 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "b1b3f89c-1d71-4953-bec4-c2ad6dc2f6bc")
+	)
+	(pad "7" smd roundrect
+		(at -10.1 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "ef7c35a1-77c1-407d-a7b0-ae9862650209")
+	)
+	(pad "8" smd roundrect
+		(at -8.1 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "8bcce306-a375-4b29-b73e-f60d045fe227")
+	)
+	(pad "9" smd roundrect
+		(at -6.1 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "dd9267f7-53cd-42a5-ad27-f6e43bef9291")
+	)
+	(pad "10" smd roundrect
+		(at -4.1 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "35c50123-6dd4-49e6-8a51-9932abf6a0f4")
+	)
+	(pad "11" smd roundrect
+		(at -2.1 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "80a5a8b2-69af-424b-89d1-45dcbeaebe00")
+	)
+	(pad "12" smd roundrect
+		(at -0.1 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "fbe63f18-1e9f-422f-9097-e429da65a34b")
+	)
+	(pad "13" smd roundrect
+		(at 1.9 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "67a8b80d-b33c-4199-88c3-e0c34beb32ea")
+	)
+	(pad "14" smd roundrect
+		(at 3.9 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "c187cfd8-1811-4e8d-8bf4-c55ade9980a8")
+	)
+	(pad "15" smd roundrect
+		(at 5.9 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "083577ff-8d34-4ad8-b3f8-d15806166e34")
+	)
+	(pad "16" smd roundrect
+		(at 7.9 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "14c9f45b-25e7-49f8-8f12-1058ca1d429f")
+	)
+	(pad "17" smd roundrect
+		(at 9.9 62.625 270)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "e92a4592-718f-4920-8da5-25bb3106722e")
+	)
+	(pad "18" smd roundrect
+		(at 26.9 -26.375)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "d660adbe-5c73-498c-9c9c-d2680f969664")
+	)
+	(pad "19" smd roundrect
+		(at 26.9 -28.375)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "96f45df3-3fe6-44f4-a442-3f495bb1af40")
+	)
+	(pad "20" smd roundrect
+		(at 8.9 -61.375 90)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "0be6cca7-8bc9-4f92-bca4-04c5d7fa18ca")
+	)
+	(pad "21" smd roundrect
+		(at 6.9 -61.375 90)
+		(size 2.1 1.6)
+		(drill
+			(offset -0.3 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(thermal_bridge_width 1)
+		(uuid "11086a20-defc-4b08-8077-6cb68e342e36")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/CHIPz_Modules.3dshapes/KIM1-CHIPz-kbd-display-module.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
