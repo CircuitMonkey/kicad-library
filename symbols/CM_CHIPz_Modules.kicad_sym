@@ -1719,6 +1719,669 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "KIM1-Control-Module"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -21.59 12.7 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Control"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 2.4 2.4)
+					(thickness 0.48)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" "CM_CHIPz_Modules:KIM1-Control-CHIPz-Module"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "KIM1-Control-Module_1_1"
+			(polyline
+				(pts
+					(xy -25.4 10.16) (xy -24.13 11.43) (xy 22.86 11.43) (xy 24.13 10.16) (xy 25.4 8.89) (xy 25.4 0)
+					(xy 24.13 -1.27) (xy 24.13 -7.62) (xy 27.94 -11.43) (xy 27.94 -16.51) (xy 26.67 -17.78) (xy 1.27 -17.78)
+					(xy -2.54 -21.59) (xy -22.86 -21.59) (xy -25.4 -19.05) (xy -25.4 10.16)
+				)
+				(stroke
+					(width 0.3)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25.4 -7.62) (xy -21.59 -7.62) (xy -20.32 -6.35) (xy -20.32 11.43) (xy -24.13 11.43) (xy -25.4 10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 0.29)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25.4 -17.78) (xy -21.59 -17.78) (xy -20.32 -16.51) (xy -20.32 -11.43) (xy -21.59 -10.16) (xy -25.4 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 0.34)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -17.78) (xy 1.27 -15.24) (xy 2.54 -13.97) (xy 20.32 -13.97) (xy 21.59 -15.24) (xy 21.59 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 0.3)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24.13 -7.62) (xy 19.05 -7.62) (xy 17.78 -6.35) (xy 17.78 -2.54) (xy 19.05 -1.27) (xy 24.13 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 0.25)
+				)
+			)
+			(pin output line
+				(at -29.21 8.89 0)
+				(length 3.81)
+				(name "~{RDY}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -29.21 6.35 0)
+				(length 3.81)
+				(name "~{IRQ}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -29.21 3.81 0)
+				(length 3.81)
+				(name "~{NMI}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -29.21 1.27 0)
+				(length 3.81)
+				(name "SYNC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -29.21 -1.27 0)
+				(length 3.81)
+				(name "R/~{W}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input clock
+				(at -29.21 -3.81 0)
+				(length 3.81)
+				(name "μΦ2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -29.21 -6.35 0)
+				(length 3.81)
+				(name "~{RST}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -29.21 -11.43 0)
+				(length 3.81)
+				(name "A12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -29.21 -13.97 0)
+				(length 3.81)
+				(name "A11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -29.21 -16.51 0)
+				(length 3.81)
+				(name "A10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -19.05 -25.4 90)
+				(length 3.81)
+				(name "E-17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -13.97 -25.4 90)
+				(length 3.81)
+				(name "ΨR/~{W}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -11.43 -25.4 90)
+				(length 3.81)
+				(name "Ψ~{R}/W"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 -25.4 90)
+				(length 3.81)
+				(name "RAM-R/~{W}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -6.35 -25.4 90)
+				(length 3.81)
+				(name "ΨΦ2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -3.81 -25.4 90)
+				(length 3.81)
+				(name "Ψ~{Φ2}"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 2.54 -21.59 90)
+				(length 3.81)
+				(name "K0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 -21.59 90)
+				(length 3.81)
+				(name "K1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 -21.59 90)
+				(length 3.81)
+				(name "K2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -21.59 90)
+				(length 3.81)
+				(name "K3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -21.59 90)
+				(length 3.81)
+				(name "K4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -21.59 90)
+				(length 3.81)
+				(name "K5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -21.59 90)
+				(length 3.81)
+				(name "K6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 20.32 -21.59 90)
+				(length 3.81)
+				(name "K7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -21.59 90)
+				(length 3.81)
+				(name "x"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 25.4 -21.59 90)
+				(length 3.81)
+				(name "DecEN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -3.81 180)
+				(length 3.81)
+				(name "RS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 27.94 -6.35 180)
+				(length 3.81)
+				(name "ST"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 6.35 180)
+				(length 3.81)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 29.21 3.81 180)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "KIM1-Kbd-Display"
 		(exclude_from_sim no)
 		(in_bom yes)
