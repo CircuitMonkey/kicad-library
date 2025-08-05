@@ -56,6 +56,17 @@
 		)
 	)
 	(attr exclude_from_bom allow_missing_courtyard)
+	(fp_rect
+		(start 0 -7)
+		(end 1.5 9)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5cc8c82a-4b1a-4950-a53f-9c2e9767c63f")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -1.27 0 270)
 		(unlocked yes)
