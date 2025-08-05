@@ -1,0 +1,229 @@
+(footprint "0131-DC-DC-3A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "744d91d0-1632-4882-9a67-e1a33dbd478f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0131-DC-DC-3A"
+		(at 0 1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5a0fa896-4f2d-418e-8632-d0ce01329cc9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.06)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea8a5b57-a588-496d-ad10-f528dc6803cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ee5cf21-315b-4a42-b2a4-fa9b77380d11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.95 3.05)
+		(end -4 5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14ea7e8a-308f-453d-afed-b77a42785f53")
+	)
+	(fp_line
+		(start -5.9 -3.1)
+		(end -4 -5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ee5060c-886a-4a5f-a941-6e83628f37ce")
+	)
+	(fp_line
+		(start -4 -5)
+		(end 4 -5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c627133d-6175-4681-a7d4-6e3bc6ad3b84")
+	)
+	(fp_line
+		(start -4 5)
+		(end 5.5 5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f073b3fd-9d7c-4289-b4cf-47fa09efcc4e")
+	)
+	(fp_line
+		(start 4 -5)
+		(end 5.9 -3.1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "07283b10-c336-4af5-bd9a-d17effef5b07")
+	)
+	(fp_line
+		(start 5.5 5)
+		(end 6 4.5)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8745ec1-cfa2-436e-89b6-595e9a986d3f")
+	)
+	(fp_line
+		(start 6 4.5)
+		(end 6 -0.85)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eb3ca87f-3f6f-4fe5-ada5-d3033c7f8a98")
+	)
+	(fp_poly
+		(pts
+			(xy -6 -3) (xy -4 -5) (xy 4 -5) (xy 6 -3) (xy 6 4.5) (xy 5.5 5) (xy -4 5) (xy -6 3)
+		)
+		(stroke
+			(width 0.03)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e37a308b-8b9c-4a1c-bb19-5d16f57e92af")
+	)
+	(fp_poly
+		(pts
+			(xy -4 -5.5) (xy 4 -5.5) (xy 6.5 -3) (xy 6.5 4.5) (xy 5.5 5.5) (xy -4 5.5) (xy -6.5 3) (xy -6.5 -3)
+		)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3dbb30e0-00b9-4e9c-85aa-2f994947486a")
+	)
+	(fp_text user "Regulator"
+		(at 0.5 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bfec2bdc-19a3-4c03-8c27-115c3c364fb9")
+		(effects
+			(font
+				(size 1.4 1.2)
+				(thickness 0.27)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3ed04e96-f8a4-4ca7-89e9-3ad0f66df68b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -6 -2 180)
+		(size 1.9 1.6)
+		(drill
+			(offset -0.25 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "caf3971c-7754-489c-85bd-3a21fb04b163")
+	)
+	(pad "2" smd roundrect
+		(at -6 0 180)
+		(size 1.9 1.6)
+		(drill
+			(offset -0.25 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(thermal_bridge_width 1)
+		(uuid "6ef4b4c8-bd30-4f65-99a1-92b6e9fec2cc")
+	)
+	(pad "3" smd roundrect
+		(at -6 2 180)
+		(size 1.9 1.6)
+		(drill
+			(offset -0.25 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "5d306754-e3b5-4a87-89ec-8244f497dfc6")
+	)
+	(pad "4" smd roundrect
+		(at 6 -2)
+		(size 1.9 1.6)
+		(drill
+			(offset -0.25 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(uuid "5912f7f4-4a79-4d9c-8dff-09a8566323cf")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/CHIPz_Modules.3dshapes/0131-dcdc-3a.step"
+		(offset
+			(xyz -5.08 -20 0.04)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
