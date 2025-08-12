@@ -31,7 +31,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CM_Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-17"
 			(at 3.81 2.54 0)
 			(effects
 				(font
@@ -346,7 +346,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -13.97 90)
 				(length 5.08)
 				(name "GND"
@@ -383,7 +383,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 15.24 7.62 180)
 				(length 5.08)
 				(name "VBUS"
