@@ -1712,9 +1712,9 @@
 		(uuid "e7da0dec-3064-4604-bf3a-5ff342b3d587")
 	)
 	(embedded_fonts no)
-	(model "${CUSTOM_3DMODEL_DIR}/Connector_Edge.3dshapes/PCI-10018783-x0xxx_36P.step"
+	(model "${CUSTOM_3DMODEL_DIR}/Connector_Edge.3dshapes/PCI-10018783-x0xx1-64c.step"
 		(offset
-			(xyz -0.127 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

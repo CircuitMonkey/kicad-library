@@ -1522,7 +1522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10018783.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1531,7 +1531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PCI Slot, 36-pin"
+		(property "Description" "PCI Slot, 64-pin"
 			(at -2.54 15.24 90)
 			(do_not_autoplace)
 			(effects
@@ -1540,6 +1540,24 @@
 					(thickness 0.2)
 					(bold yes)
 				)
+			)
+		)
+		(property "MPN" "10018783-10201TLF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Amphenol-FCI"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "PCI, PCIe"
