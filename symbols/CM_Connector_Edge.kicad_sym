@@ -735,6 +735,1251 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "ASMR-64-Edge"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -36.83 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CM_Connector_Edge:ASMR-Edge-64"
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ASMR PCB Edge, 64-pin"
+			(at 20.32 -1.27 0)
+			(effects
+				(font
+					(size 1.4 1.4)
+					(thickness 0.2)
+					(bold yes)
+				)
+			)
+		)
+		(property "ki_keywords" "PCI, PCIe"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ASMR-64-Edge_1_1"
+			(rectangle
+				(start -35.56 5.08)
+				(end 87.63 -2.54)
+				(stroke
+					(width 0.3)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_out line
+				(at -33.02 8.89 270)
+				(length 3.81)
+				(name "+18-24V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -33.02 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+18-24V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -33.02 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+18-24V"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -33.02 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+18-24V"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 8.89 270)
+				(length 3.81)
+				(name "+15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 -6.35 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 -6.35 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "A6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 -6.35 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "A9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 -6.35 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 -6.35 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "B6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -30.48 -6.35 90)
+				(length 3.81)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+					)
+				)
+				(number "B9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -27.94 8.89 270)
+				(length 3.81)
+				(name "-15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -27.94 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "-15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -27.94 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "-15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -27.94 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "-15V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25.4 8.89 270)
+				(length 3.81)
+				(name "+5V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25.4 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+5V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25.4 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+5V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -25.4 8.89 270)
+				(length 3.81)
+				(hide yes)
+				(name "+5V"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -20.32 8.89 270)
+				(length 3.81)
+				(name "ComA-SCK"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -17.78 8.89 270)
+				(length 3.81)
+				(name "ComA-SDA"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -15.24 8.89 270)
+				(length 3.81)
+				(name "ComB-SCK"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 8.89 270)
+				(length 3.81)
+				(name "ComB-SDA"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 8.89 270)
+				(length 3.81)
+				(name "CV"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -6.35 90)
+				(length 3.81)
+				(name "SGND"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+				(number "A16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -6.35 90)
+				(length 3.81)
+				(hide yes)
+				(name "SGND"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+				(number "B16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 8.89 270)
+				(length 3.81)
+				(name "Gate"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 0 8.89 270)
+				(length 3.81)
+				(name "MIDI_IN"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 8.89 270)
+				(length 3.81)
+				(name "Slot"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 8.89 270)
+				(length 3.81)
+				(name "Patch1"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 8.89 270)
+				(length 3.81)
+				(name "Patch2"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 8.89 270)
+				(length 3.81)
+				(name "Patch3"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B18"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 8.89 270)
+				(length 3.81)
+				(name "Patch4"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A18"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 8.89 270)
+				(length 3.81)
+				(name "Patch5"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B19"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 8.89 270)
+				(length 3.81)
+				(name "Patch6"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A19"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 8.89 270)
+				(length 3.81)
+				(name "Patch7"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B20"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 25.4 8.89 270)
+				(length 3.81)
+				(name "Patch8"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A20"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 27.94 8.89 270)
+				(length 3.81)
+				(name "Patch9"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B21"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 8.89 270)
+				(length 3.81)
+				(name "Patch10"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A21"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 33.02 8.89 270)
+				(length 3.81)
+				(name "Patch11"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B22"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 8.89 270)
+				(length 3.81)
+				(name "Patch12"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A22"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 38.1 8.89 270)
+				(length 3.81)
+				(name "Patch13"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B23"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 40.64 8.89 270)
+				(length 3.81)
+				(name "Patch14"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A23"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 43.18 8.89 270)
+				(length 3.81)
+				(name "Patch15"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B24"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 45.72 8.89 270)
+				(length 3.81)
+				(name "Patch16"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A24"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 48.26 8.89 270)
+				(length 3.81)
+				(name "Patch17"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B25"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 50.8 8.89 270)
+				(length 3.81)
+				(name "Patch18"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A25"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 53.34 8.89 270)
+				(length 3.81)
+				(name "Patch19"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B26"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 8.89 270)
+				(length 3.81)
+				(name "Patch20"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A26"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 58.42 8.89 270)
+				(length 3.81)
+				(name "Patch21"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B27"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 60.96 8.89 270)
+				(length 3.81)
+				(name "Patch22"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A27"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 63.5 8.89 270)
+				(length 3.81)
+				(name "Patch23"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B28"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 66.04 8.89 270)
+				(length 3.81)
+				(name "Patch24"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A28"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 68.58 8.89 270)
+				(length 3.81)
+				(name "Patch25"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B29"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 71.12 8.89 270)
+				(length 3.81)
+				(name "Patch26"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A29"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 73.66 8.89 270)
+				(length 3.81)
+				(name "Patch27"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B30"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 76.2 8.89 270)
+				(length 3.81)
+				(name "Patch28"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A30"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 78.74 8.89 270)
+				(length 3.81)
+				(name "Patch29"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B31"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 81.28 8.89 270)
+				(length 3.81)
+				(name "Patch30"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A31"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 83.82 8.89 270)
+				(length 3.81)
+				(name "Patch31"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B32"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 86.36 8.89 270)
+				(length 3.81)
+				(name "Patch32"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A32"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "PCIe-36"
 		(pin_names
 			(hide yes)
