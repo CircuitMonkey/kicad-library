@@ -1,0 +1,375 @@
+(footprint "pot-thd-ra-11mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr " Potentiometer, 11mm, RV111 Type, Right Angle, THD. Tayda #A-8089")
+	(property "Reference" "REF**"
+		(at 2.5 0 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "95e79203-80c7-4a68-8d3c-2e325b340ad6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Value"
+		(at -5.5 -0.5 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "38f93509-3bf0-483f-9eca-dc246ecfd8f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-5537-1.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "229fa4ca-2dcc-46e9-81a8-2671cfb20c19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " Potentiometer, 11mm, RV111 Type, Right Angle, THD. Tayda #A-8089"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "675bca22-fde0-4664-a9d1-3fe4311082ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.5 -6)
+		(end -6.5 6)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ac449a3-8e02-45be-9a17-9b8eafecc582")
+	)
+	(fp_line
+		(start -6.5 6)
+		(end -2.5 6)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3436448a-1246-4c1c-9df3-613317d8ddee")
+	)
+	(fp_line
+		(start -2.5 -6)
+		(end -6.5 -6)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "468219b0-0361-4406-85e7-bc11343119bd")
+	)
+	(fp_line
+		(start -11.5 -3.5)
+		(end -11.5 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cf4e4310-db89-4135-8b5c-dea9d1aeb5d4")
+	)
+	(fp_line
+		(start -10.5 -2)
+		(end -10.5 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f6cc406d-eef6-4788-8b72-59c97b310284")
+	)
+	(fp_line
+		(start -9.5 -3.5)
+		(end -9.5 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "56ca5138-1e43-4030-bb54-7bb404684b03")
+	)
+	(fp_line
+		(start -8.5 -2)
+		(end -8.5 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b39b494e-6ec9-49c8-9d35-326f1a5febdf")
+	)
+	(fp_rect
+		(start -12.5 -4.5)
+		(end -7.5 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a524239a-6fc0-43d2-b8cd-705808d75813")
+	)
+	(fp_rect
+		(start -7.5 -5.5)
+		(end -6.5 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a7e93490-8821-4853-843c-91839f1af0f7")
+	)
+	(fp_rect
+		(start -3.45 -4)
+		(end -3.15 -3)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "11d900f8-5499-4d0c-8eac-ceb55c18fd3d")
+	)
+	(fp_rect
+		(start -3.45 -1.75)
+		(end -3.15 -0.75)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "11ea0ba4-c590-4ea3-912d-edc4e3fa9b1e")
+	)
+	(fp_rect
+		(start -3.45 0.75)
+		(end -3.15 1.75)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "fc1f7cee-cf62-4759-87e4-c3f2876ae0b4")
+	)
+	(fp_rect
+		(start -3.45 3)
+		(end -3.15 4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "0966bb43-0d9d-4427-88e3-76cc30437f64")
+	)
+	(fp_rect
+		(start -1 -6)
+		(end 1 -5.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "876468b9-34ea-4e65-b4bb-b147d8da7986")
+	)
+	(fp_rect
+		(start -1 5.2)
+		(end 1 6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "9ad33c0b-c1f9-41d0-8eda-163c7045a00a")
+	)
+	(fp_poly
+		(pts
+			(xy -22.5 -1.5) (xy -15.5 -1.5) (xy -15.5 -3) (xy -12.5 -3) (xy -12.5 3) (xy -22.5 3)
+		)
+		(stroke
+			(width 0.04)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "627dbf05-efdc-4c8e-9227-296fc6b69fcb")
+	)
+	(fp_poly
+		(pts
+			(xy 1 -6) (xy -6.5 -6) (xy -6.5 6) (xy 1 6) (xy 1 5.2) (xy -1 5.2) (xy -1 -5.2) (xy 1 -5.2)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "f803aa36-6ba5-4a4d-9359-683aabbcde3d")
+	)
+	(fp_rect
+		(start -8 -6.5)
+		(end 1.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "91587bf1-f3d9-4769-82a1-0950899e206c")
+	)
+	(fp_text user "1"
+		(at -2.5 -3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "3ca2c0ad-0eb5-4e2d-9747-b3829e44b6e0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at -2.5 1.25 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "77dad222-cf1f-4956-ab58-3abdd10ab1d7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "4"
+		(at -2.5 3.5 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "83af1dfb-3dcc-44ed-ab30-2ce24b201893")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "2"
+		(at -2.5 -1.25 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "ce0b5137-2bc8-40ad-ae17-a8c1f219349e")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.06)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1d03bb8-3e60-4ba4-a78a-ab71e042b339")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.3 -3.75 90)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4efb708f-104f-4fea-af93-234e19bb96b4")
+	)
+	(pad "2" thru_hole circle
+		(at -3.3 -1.25 90)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "487bc806-3a9a-4eaa-9303-036f2f5e3c2d")
+	)
+	(pad "3" thru_hole circle
+		(at -3.3 1.25 90)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b8e34c8-bf03-4f40-8a1b-a4ae3ce7b72e")
+	)
+	(pad "4" thru_hole circle
+		(at -3.3 3.75 90)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "354a25c3-2444-4aa8-9372-eaa90fe50143")
+	)
+	(pad "MP" thru_hole roundrect
+		(at 0 -5.6)
+		(size 4 2.2)
+		(drill oval 2.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3333333333)
+		(thermal_bridge_angle 45)
+		(uuid "6c302379-ab2f-446b-9770-0bab80a202f8")
+	)
+	(pad "MP" thru_hole roundrect
+		(at 0 5.6)
+		(size 4 2.2)
+		(drill oval 2.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3333333333)
+		(thermal_bridge_angle 45)
+		(uuid "f039678d-3c60-4556-9086-ade1ffdd4933")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/CM_Resistor_Capacitor.3dshapes/Potentiometer-Tayda-RV111-RA-THD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
