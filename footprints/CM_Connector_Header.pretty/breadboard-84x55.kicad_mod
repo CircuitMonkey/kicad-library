@@ -1,0 +1,105 @@
+(footprint "breadboard-84x55"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Breadboard, 84mm x 55mm x 8.5mm H, 400 point, Tayda A-1427")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1a4376d-e158-475b-881d-9a193b601d60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BreadBoard 84x55"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "431fc451-e2ba-43c9-8058-2ee7bbd5443f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eb68ec7-9506-4286-a4ff-b3eb9bb4743e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27a4325c-0b5e-48b5-9da2-956677f0298b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -41 -27.5)
+		(end 41 27.5)
+		(stroke
+			(width 0.33)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "627a1e26-ceeb-47ab-aeae-3ee28cca053c")
+	)
+	(fp_poly
+		(pts
+			(xy -42.5 -29) (xy 42.5 -29) (xy 42.5 29) (xy -42.5 29)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c201de31-e50c-45d6-a2d7-4a00c897d55c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a72bcdf4-e52c-48fd-b233-e2219f9f16a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/Connector_Header.3dshapes/breadboard-84x55.step"
+		(offset
+			(xyz 0 0 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
