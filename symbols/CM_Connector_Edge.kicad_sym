@@ -1220,17 +1220,17 @@
 					)
 				)
 			)
-			(pin passive clock
+			(pin output line
 				(at -20.32 8.89 270)
 				(length 3.81)
-				(name "ComA-SCK"
+				(name "MIDI_IN"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "A13"
+				(number "B12"
 					(effects
 						(font
 							(size 1 1)
@@ -1241,32 +1241,14 @@
 			(pin passive line
 				(at -17.78 8.89 270)
 				(length 3.81)
-				(name "ComA-SDA"
+				(name "Slot"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "B13"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive clock
-				(at -15.24 8.89 270)
-				(length 3.81)
-				(name "ComB-SCK"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "A14"
+				(number "A12"
 					(effects
 						(font
 							(size 1 1)
@@ -1275,43 +1257,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 8.89 270)
-				(length 3.81)
-				(name "ComB-SDA"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "B14"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 8.89 270)
-				(length 3.81)
-				(name "CV"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "A15"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -6.35 90)
+				(at -15.24 -6.35 90)
 				(length 3.81)
 				(name "SGND"
 					(effects
@@ -1329,7 +1275,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -6.35 90)
+				(at -15.24 -6.35 90)
 				(length 3.81)
 				(hide yes)
 				(name "SGND"
@@ -1348,7 +1294,79 @@
 				)
 			)
 			(pin passive line
+				(at -12.7 8.89 270)
+				(length 3.81)
+				(name "ComA-SDA"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive clock
+				(at -10.16 8.89 270)
+				(length 3.81)
+				(name "ComA-SCK"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 8.89 270)
+				(length 3.81)
+				(name "ComB-SDA"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "B14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive clock
 				(at -5.08 8.89 270)
+				(length 3.81)
+				(name "ComB-SCK"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "A14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 8.89 270)
 				(length 3.81)
 				(name "Gate"
 					(effects
@@ -1365,35 +1383,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 8.89 270)
-				(length 3.81)
-				(name "MIDI_IN"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "B12"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 2.54 8.89 270)
 				(length 3.81)
-				(name "Slot"
+				(name "CV"
 					(effects
 						(font
 							(size 0.8 0.8)
 						)
 					)
 				)
-				(number "A12"
+				(number "A15"
 					(effects
 						(font
 							(size 1 1)
