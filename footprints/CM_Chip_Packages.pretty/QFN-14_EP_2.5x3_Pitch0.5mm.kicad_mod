@@ -336,102 +336,102 @@
 		(uuid "770c3d5f-6fc4-4237-8232-da3c631ba617")
 	)
 	(pad "1" smd oval
+		(at -0.25 -1.5)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "1f435e7b-7644-409c-bc7d-f9c5fd4f3339")
+	)
+	(pad "2" smd oval
 		(at -1.25 -1 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "f46ef2b0-9c82-4e70-8278-971cc2f144d4")
 	)
-	(pad "2" smd oval
+	(pad "3" smd oval
 		(at -1.25 -0.5 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "92b713ce-e4b6-4d53-8d0d-336ed5b7d7cc")
 	)
-	(pad "3" smd oval
+	(pad "4" smd oval
 		(at -1.25 0 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "c9930528-7519-40df-9b4d-28d89176cdd5")
 	)
-	(pad "4" smd oval
+	(pad "5" smd oval
 		(at -1.25 0.5 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "5d40c536-d0f5-46f8-be4a-6eabeea19225")
 	)
-	(pad "5" smd oval
+	(pad "6" smd oval
 		(at -1.25 1 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "689cf984-dd8b-4645-a5da-6ef0f58d1da0")
 	)
-	(pad "6" smd oval
+	(pad "7" smd oval
 		(at -0.25 1.5)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "f5b12a90-d2ac-46c2-876d-cab0636cd22d")
 	)
-	(pad "7" smd oval
+	(pad "8" smd oval
 		(at 0.25 1.5)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "f0679a0a-2cf5-4646-b2a1-353e0c1c1c2d")
 	)
-	(pad "8" smd oval
+	(pad "9" smd oval
 		(at 1.25 1 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "16d9a21c-41e9-427a-b3a2-196e9c3dc252")
 	)
-	(pad "9" smd oval
+	(pad "10" smd oval
 		(at 1.25 0.5 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "3be9d561-f530-4c32-a621-4e30ae64db32")
 	)
-	(pad "10" smd oval
+	(pad "11" smd oval
 		(at 1.25 0 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "5f741404-4017-470d-9dd5-caa17506eb1d")
 	)
-	(pad "11" smd oval
+	(pad "12" smd oval
 		(at 1.25 -0.5 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "a1fcb678-381d-4626-8bbf-c819d6be6a10")
 	)
-	(pad "12" smd oval
+	(pad "13" smd oval
 		(at 1.25 -1 90)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "4964d06f-ddbc-4e50-9c5b-79fcddcf74e6")
 	)
-	(pad "13" smd oval
+	(pad "14" smd oval
 		(at 0.25 -1.5)
 		(size 0.3 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
 		(uuid "b7c6c07b-5c0d-473b-aaab-7758d61529a7")
-	)
-	(pad "14" smd oval
-		(at -0.25 -1.5)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "1f435e7b-7644-409c-bc7d-f9c5fd4f3339")
 	)
 	(pad "15" smd rect
 		(at 0 0)
