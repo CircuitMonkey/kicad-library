@@ -372,7 +372,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1365"
+		(property "Value" "MCP16365"
 			(at 0 5.08 0)
 			(do_not_autoplace)
 			(effects
@@ -410,7 +410,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCP1365"
+		(property "MPN" "MCP16365"
 			(at 0 0 0)
 			(effects
 				(font

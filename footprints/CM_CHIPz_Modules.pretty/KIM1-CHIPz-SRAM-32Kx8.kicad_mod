@@ -260,7 +260,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "6fb0b353-f07c-474a-9864-e077d4d2514b")
@@ -271,7 +271,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "fc5c633d-7a09-4198-8300-422148edfc11")
@@ -282,7 +282,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "21deefb2-ed0d-4ae6-9024-fe4c7e381535")
@@ -293,7 +293,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "126713a6-5976-401f-a7bf-d74f7aaeaf3c")
@@ -304,7 +304,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "272c63d3-f445-4eea-9078-6db1d1b2394d")
@@ -315,7 +315,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "e8d8cf62-a773-4209-b6c0-3807a2a48516")
@@ -326,7 +326,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "3e34957e-d412-4a91-9993-7b06f2bea31b")
@@ -337,7 +337,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "2d429d5f-1a2e-4088-8926-216fce6f2d55")
@@ -348,7 +348,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "5de8fd0c-b41c-4a04-81b2-d6bafceeb0aa")
@@ -359,7 +359,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "634955eb-9fa2-4638-9566-c12a0d9b8a6c")
@@ -370,7 +370,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "3d3f852a-3317-434a-a45d-8151d6d51d66")
@@ -381,7 +381,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "d2d15ec1-dd5d-4970-91b3-178e80ec1579")
@@ -392,7 +392,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "5317d4af-2c22-4dc3-b2b5-748f0fbe36da")
@@ -403,7 +403,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "44fea23d-929a-47d0-a2b5-9bb8f768160f")
@@ -414,7 +414,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "80f4b1fa-90cb-4eac-b74a-2a2ae348a0d8")
@@ -425,7 +425,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "585629c3-ec7e-4039-a699-1b5625572908")
@@ -436,7 +436,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "2785f620-17fc-452b-976e-c9da01839b3f")
@@ -447,7 +447,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "31b890e6-deaa-4281-b2a7-ec45c4d49e5a")
@@ -458,7 +458,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "da71cef3-33a5-4788-ad66-a000416500b8")
@@ -469,7 +469,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "fdd9f875-febf-4fbe-812f-7128f5020726")
@@ -480,7 +480,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "2a140a6a-149c-49c3-a283-5d64317e9687")
@@ -491,7 +491,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "e12c2764-df1e-427a-9cae-013ca161ce9f")
@@ -502,7 +502,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "b05ae268-c5c7-4c77-b141-ecaf273b772d")
@@ -513,7 +513,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "9cd76b52-23d1-43e9-a122-10b16a16772d")
@@ -524,7 +524,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "fb2b2b57-c69e-4dfd-a877-becc058f4b2e")
@@ -535,7 +535,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "161999bf-dcd2-4610-8a22-a6427fe15c17")
@@ -546,7 +546,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "7f516d0c-59fb-4c42-af40-5246e872490c")
@@ -557,7 +557,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "ddbb5c34-a748-43e2-bc1b-c17e71cf9705")
@@ -568,7 +568,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "63a131b2-1c01-468f-aa54-dc07a5b98a98")
@@ -579,7 +579,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "6bef4a97-5cc6-494a-ab94-1bae5c87dd3b")
@@ -590,7 +590,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "9ac055db-23e1-40b8-9a98-8dfe0b0110f2")
@@ -601,7 +601,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "01d34157-1f17-4118-980a-c8970dd661cd")
@@ -612,7 +612,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "865f786c-4ae4-4b7e-bb29-b490fd5a136a")
@@ -623,7 +623,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "1d2b3cd3-a684-4304-b24a-f98bc9af1cc9")
@@ -634,7 +634,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "5c8ba4f9-0382-4bf0-9c60-10c38716f413")
@@ -645,7 +645,7 @@
 		(drill
 			(offset -0.3 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(uuid "ca7ee6cd-a7e4-4a1a-976c-c363485bf1c1")
 	)
@@ -655,7 +655,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "4eebac86-e40c-4ffd-a01a-2cc083298835")
@@ -666,7 +666,7 @@
 		(drill
 			(offset 0.4 0)
 		)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2083333333)
 		(thermal_bridge_angle 45)
 		(uuid "08d8e945-edab-4591-849f-8487738b474a")
