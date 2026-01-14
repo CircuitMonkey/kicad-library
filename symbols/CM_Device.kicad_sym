@@ -623,7 +623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CM_Resistor_Capacitor:R_0603_1608Metric"
 			(at 0 0 0)
 			(effects
 				(font
