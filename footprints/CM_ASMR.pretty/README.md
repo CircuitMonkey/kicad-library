@@ -1,0 +1,2 @@
+* AMSR - Footprints
+
