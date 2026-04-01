@@ -1,0 +1,268 @@
+(footprint "SameSky-Slide-8x4mm-SPDT-THD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "36d67698-ce17-4607-8952-90416ce1ba50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SameSky-Slide-8x4mm-SPDT-THD"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "385b6561-4135-41fd-90de-25908b5de743")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-864587-2a-ra-n-d.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2aeffa1-0126-4359-b369-efb971448f5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Slide Switch, SPDT, Right Angle, THD, 8x4mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "096bc3da-2f62-47b8-8b2c-ae78c21815d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALT" "C&K OS102011 type"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dd716ddb-6b4d-4f20-94ac-8e48fedd590a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.3 -2.3)
+		(end 4.3 -2.3)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58ca4668-7b9a-4c44-876e-9508097139f7")
+	)
+	(fp_line
+		(start -4.3 -1.3)
+		(end -4.3 -2.3)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7afaa48-6ca7-4cbb-95ed-7b29d8ca66a5")
+	)
+	(fp_line
+		(start -4.3 1.3)
+		(end -4.3 2.3)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4cea3c48-bef2-4727-bf7d-6133c2bb65dc")
+	)
+	(fp_line
+		(start -4.3 2.3)
+		(end 4.3 2.3)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "def0d6dd-5ea6-488e-a897-49aa71f71b7d")
+	)
+	(fp_line
+		(start 4.3 -2.3)
+		(end 4.3 -1.3)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df007d3b-48bf-4e9c-a2f4-25dcdcb33a59")
+	)
+	(fp_line
+		(start 4.3 2.3)
+		(end 4.3 1.3)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c1cf4ab-b3fe-499b-bea6-0cb84ec16810")
+	)
+	(fp_line
+		(start -4.3 -2.3)
+		(end 4.3 -2.3)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c9ff347c-c508-497a-bb28-93642b519914")
+	)
+	(fp_line
+		(start -4.3 2.3)
+		(end -4.3 -2.3)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a48285d5-a382-4be8-8cb9-6eea9d26a0f7")
+	)
+	(fp_line
+		(start -2 2.3)
+		(end -2 5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "41544e79-f75d-4088-856a-d15d64163851")
+	)
+	(fp_line
+		(start -2 5)
+		(end 0 5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "89ab38d1-0b7b-4190-8aa7-76d73be7a45b")
+	)
+	(fp_line
+		(start 0 5)
+		(end 0 2.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "cc7bb51c-977b-45df-8231-7f07aaf41549")
+	)
+	(fp_line
+		(start 4.3 -2.3)
+		(end 4.3 2.3)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "898a0fe9-3fe1-4892-b19a-7154d03bb25a")
+	)
+	(fp_line
+		(start 4.3 2.3)
+		(end -4.3 2.3)
+		(stroke
+			(width 0.08)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9f5a97f2-4bfe-4590-ac02-dfb1ec4c5846")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "824bf611-6dff-486b-8e86-ce1a39546af3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 0 90)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "2ecddaf7-30b1-4a8c-8ac5-c5000590bf74")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0 90)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "1b412b02-4bd5-4a7e-8b6d-e0be76df3f6a")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0 90)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "41783628-e0d2-4f1e-b3ed-80e26c18a125")
+	)
+	(pad "MTG" thru_hole roundrect
+		(at -4.1 0 90)
+		(size 2 1.3)
+		(drill oval 1.4 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "83813e36-afe4-4a6f-ade5-443525de213c")
+	)
+	(pad "MTG1" thru_hole roundrect
+		(at 4.1 0 90)
+		(size 2 1.3)
+		(drill oval 1.4 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "22e89e84-e57d-4bae-be20-f13f3819f7a4")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_3DMODEL_DIR}/Switch.3dshapes/CK-OS102011MA1QN1.step"
+		(offset
+			(xyz 0 0 4.35)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1019,6 +1019,78 @@
 			)
 		)
 	)
+	(symbol "Slide_SPDT_8x4_SameSky-Side"
+		(extends "Slide_SPDT_MTG")
+		(property "Reference" "SW"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "SameSky-Side-Slide"
+			(at 15.24 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CM_Switches:SameSky-Slide-8x4mm-SPDT-THD"
+			(at 6.35 0 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/slw-864587-2a-ra-n-d.pdf"
+			(at 5.08 -1.27 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch, SPDT, Side, 8x4mm, THD"
+			(at 5.08 -3.81 0)
+			(do_not_autoplace)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SLW-864587-2A-RA-N-D"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "SameSky"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.9906 0.9906)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "Tactile_Push_6x6_SMT_Gullwing"
 		(extends "Tactile_Push_SP")
 		(property "Reference" "SW"
